@@ -13,7 +13,7 @@ var guessedLetters = [];
 
 var letterToGuess = null;
 
-// Calculations to figure otu if you guess correctly
+// Calculations to figure out if you guess correctly
 var computerGuess = choices[Math.floor(Math.random() * choices.length)];
 
 var updateGuessesLeft = function() {
